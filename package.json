@@ -1,0 +1,30 @@
+{
+  "name": "jet_away_luggages",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@reduxjs/toolkit": "^2.2.5",
+    "lodash.escape": "^4.0.1",
+    "lodash.unescape": "^4.0.1",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-datatable-responsive": "^1.0.8",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-redux": "^9.1.2",
+    "react-responsive-modal": "^6.4.2",
+    "react-tooltip": "^5.26.4"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}

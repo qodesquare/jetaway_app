@@ -1,0 +1,20 @@
+.customModal {
+    width: 500px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    .customModal {
+        width: 90%;
+        border-radius: 5px;
+    }
+}
+
+.ribbon-bookmark::after {
+    border-right-color: rgb(66, 153, 225) !important;
+    border-left-color: rgb(66, 153, 225) !important;
+}
+
+li.active:hover>button {
+    color: black !important
+}
